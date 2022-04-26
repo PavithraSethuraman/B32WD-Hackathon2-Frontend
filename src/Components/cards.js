@@ -10,7 +10,7 @@ function Card({ match }) {
     if (context.state.length !== 0 || match.path === "/:id") {
       if (match.path === "/:id") {
         const { data } = await axios.get(
-          `https://webscraper-hackathon2.herokuapp.com/products/${match.params.id}`
+          `https://b32-hackathon2-backend-webscra.herokuapp.com/products/${match.params.id}`
         );
         console.log("search");
         console.log(data);
@@ -21,7 +21,7 @@ function Card({ match }) {
       }
     } else {
       const { data } = await axios.get(
-        "https://webscraper-hackathon2.herokuapp.com/products"
+        "https://b32-hackathon2-backend-webscra.herokuapp.com/products"
       );
 
       pagination(data);
