@@ -120,15 +120,9 @@ height: 50px;
  .navb{
     width: 300px;
  }
- .inp{
-   width: 30px;
-   margin: 0;
-   padding: 0;
-   margin-top: 2.5px;
- }
- .but{
-   margin: 4px;
- }
+ .inpdiv{
+  margin-left: 100px;
+}
  .cardgrid{
    width: 300px;
    display: flex;
@@ -144,6 +138,9 @@ height: 50px;
  .navb{
     width: 400px;
  }
+ .inpdiv{
+  margin-left: 50px;
+}
  .inp{
    width: 28px;
    margin: 0;
@@ -165,6 +162,10 @@ height: 50px;
  .navb{
     width: 425px;
  }
+ 
+ .inpdiv{
+  margin-left: 100px;
+}
  .inp{
    width: 28px;
    margin: 0;
@@ -173,6 +174,7 @@ height: 50px;
  }
  .but{
    margin: 4px;
+   margin-right: 70px;
  }
  .cardgrid{
    width: 425px;
@@ -184,8 +186,15 @@ height: 50px;
 @media screen and (min-width:760px)
 {
  
+  .inpdiv{
+    margin-left: 80px;
+  }
  .inp{
    margin-left: 150px;
+ }
+ .rating{
+   font-size: 15px;
+   margin-left: 0;
  }
  
 }
@@ -195,6 +204,9 @@ height: 50px;
    margin-left: 300px;
  }
  
+ .inpdiv{
+  margin-left: 50px;
+}
 }
 @media screen and (min-width:1440px)
 {
