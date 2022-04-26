@@ -1,38 +1,214 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@900&display=swap');
+.navb{
+  font-family: 'Tapestry', cursive;
+  background-color: rgb(110, 226, 87);
+  color: deeppink;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 1), 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+.navba{
+  font-size: 50px;
+}
+.homelink{
+  color: deeppink;
+}
+
+.inpdiv{
+  margin-left: 200px;
+}
+.inp{
+  height: 35px;
+  margin-top: 7px;
+  background-color: pink;
+  margin-left: 700px;
+  font-family: 'Tapestry', cursive;
+}
+.but{
+  background-color: deeppink;
+  height: 35px;
+  margin-top: 6px;
+}
+
+.cardgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 1), 0 10px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 5px;
+  padding: 10px;
+  background: url('../public/image/R.jpg') no-repeat;
+  background-size: cover;
+
+}
+.card{
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 1), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 900;
+  background: rgba(250, 189, 98, 0.73);
+}
+
+
+.cardimg{
+  margin-top: 10px;
+  object-fit: contain;
+  height:300px;
+  border-radius: 10px !important;
+  
+}
+
+.logo{
+  width: 50px;
+height: 50px;
+}
+
+.logoimg{
+  width: 100%;
+  height: 100%;
+}
+
+.title{
+  font-size: 2vh;
+  font-weight: 900;
+}
+.navbar-brand{
+      font-size: 4vh;
+}
+.nav-link{
+  font-size: 4vh;
+}
+
+.form-control{
+  font-size: 4vh;
+}
+.finalprice{
+  text-align: left;
+  color:rgb(51, 88, 39);
+  font-weight: 900;
+  font-size: 20px;
+}
+.price{
+  color:rgb(184, 235, 84);
+  text-decoration:line-through;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rating{
+  color:rgb(97, 95, 95);
+  background-color: rgb(250, 151, 233);
+  width:max-content;
+  padding: 5px;
+  border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pagi{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.butt{
+  width: 100px;
+  background-color: deeppink;
+  padding: 5px;
+  margin: 5px;
+  color: rgb(82, 81, 81);
+  font-family: 'Comic Neue', cursive;
+  font-weight: 900;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width:330px)
+{
+ .navb{
+    width: 300px;
+ }
+ .inp{
+   width: 30px;
+   margin: 0;
+   padding: 0;
+   margin-top: 2.5px;
+ }
+ .but{
+   margin: 4px;
+ }
+ .cardgrid{
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+ }
+ .butt{
+   margin-left: 50px;
+ }
+}
+@media screen and (min-width:320px) and (max-width:380px)
+{
+ .navb{
+    width: 400px;
+ }
+ .inp{
+   width: 28px;
+   margin: 0;
+   padding: 0;
+   margin-top: 2.5px;
+ }
+ .but{
+   margin: 4px;
+ }
+ .cardgrid{
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+ }
+}
+@media screen and (min-width:425px) and (max-width:700px)
+{
+ .navb{
+    width: 425px;
+ }
+ .inp{
+   width: 28px;
+   margin: 0;
+   padding: 0;
+   margin-top: 2.5px;
+ }
+ .but{
+   margin: 4px;
+ }
+ .cardgrid{
+   width: 425px;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+ }
+}
+@media screen and (min-width:760px)
+{
+ 
+ .inp{
+   margin-left: 150px;
+ }
+ 
+}
+@media screen and (min-width:1020px)
+{
+ .inp{
+   margin-left: 300px;
+ }
+ 
+}
+@media screen and (min-width:1440px)
+{
+ 
+ .inp{
+   margin-left: 500px;
+ }
+ 
+}
+@media screen and (min-width:2500px)
+{
+ 
+ .inp{
+   margin-left: 1200px;
+ }
+ 
 }
