@@ -12,11 +12,11 @@ function Card({ match }) {
         const { data } = await axios.get(
           `https://b32-hackathon2-backend-webscra.herokuapp.com/products/${match.params.id}`
         );
-        console.log("search");
-        console.log(data);
+        
         setCard(data);
+       
       } else {
-        console.log("home");
+        
         pagination(context.state);
       }
     } else {
@@ -27,7 +27,7 @@ function Card({ match }) {
       pagination(data);
     }
   };
-  console.log(getsearch())
+  
   useEffect(() => {
     getsearch();
   }, []);
@@ -43,7 +43,7 @@ function Card({ match }) {
 
   let pagination = (data) => {
     allvalues = [...data];
-    console.log(allvalues);
+   
 
     previousPage();
   };
@@ -51,7 +51,7 @@ function Card({ match }) {
   let nextPage = () => {
     if (allvalues.length === 0) {
       allvalues = [...context.state];
-      console.log(allvalues);
+     
     }
     let temp = [];
 
@@ -111,6 +111,7 @@ function Card({ match }) {
       </div>
       {match.params.id ? (
         <>
+         
         </>
       ) : (
         <div className="pagi">

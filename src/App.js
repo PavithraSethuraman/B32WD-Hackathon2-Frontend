@@ -14,7 +14,7 @@ function App() {
     let pagenumber=10;
    let getdata= async()=>{
        const {data} = await axios.get("https://b32-hackathon2-backend-webscra.herokuapp.com/products/");
-       console.log(data);
+      
        setState(data);
    }
    
