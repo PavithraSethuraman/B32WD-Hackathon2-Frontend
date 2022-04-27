@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@900&display=swap');
 .navb{
   font-family: 'Tapestry', cursive;
-  background-color: rgb(53, 225, 248);
+  background-color: rgb(24, 217, 243);
   color: deeppink;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 1), 0 10px 10px rgba(0, 0, 0, 0.25);
+ 
 }
 .navba{
   font-size: 50px;
@@ -35,7 +35,7 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 1), 0 10px 10px rgba(0, 0, 0, 0.25);
   margin-top: 5px;
   padding: 10px;
-  background-color: rgb(167, 250, 250);
+  background:url("https://th.bing.com/th/id/OIP.QKFog5rg2CHKsCBn6PSCfAHaE5?pid=ImgDet&rs=1") no-repeat;
   background-size: cover;
 
 }
@@ -46,7 +46,8 @@
   border-radius: 10px;
   font-family: 'Comic Neue', cursive;
   font-weight: 900;
-  background: rgba(173, 240, 247, 0.73);
+  background: rgba(0,0,0,0.2);
+  box-shadow: inset -5px -5px rgba(0,0,0,0.5);
 }
 
 
@@ -84,7 +85,7 @@ height: 50px;
 }
 .finalprice{
   text-align: left;
-  color:rgb(51, 88, 39);
+  color:rgb(19, 12, 7);
   font-weight: 900;
   font-size: 20px;
 }
